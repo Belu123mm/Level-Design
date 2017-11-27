@@ -1,7 +1,10 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
