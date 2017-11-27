@@ -81,6 +81,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Cosas.cs" />
     <Compile Include="Assets\FloorMovement.cs" />
     <Compile Include="Assets\IfTalCual.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
