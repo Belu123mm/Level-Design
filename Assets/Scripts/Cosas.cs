@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Cosas : MonoBehaviour
 {
-    void IrAJuego()
+    public void IrAJuego()
     {
         SceneManager.LoadScene("Level2");
     }
-    void IrAMenu()
+    public void IrAMenu()
     {
         SceneManager.LoadScene("Menu");
     }
