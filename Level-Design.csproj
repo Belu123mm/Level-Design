@@ -81,6 +81,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\IrARoom.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\LowPolyBushVinesPackage\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />

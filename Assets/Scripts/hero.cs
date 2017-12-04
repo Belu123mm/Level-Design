@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class hero : MonoBehaviour
 {
@@ -19,5 +20,10 @@ public class hero : MonoBehaviour
             life -= 20;
             textLife.text = "Life: " + life;
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "room")
+            SceneManager.LoadScene("Room");
     }
 }
