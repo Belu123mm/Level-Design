@@ -55,6 +55,7 @@ public class Enemies : MonoBehaviour
             navEnemy.destination = hero.transform.position;
         else
             navEnemy.SetDestination(point[poitI].position);
+
     }
 
     void OnCollisionEnter(Collision c)
@@ -87,7 +88,7 @@ public class Enemies : MonoBehaviour
         }
         else
             _heroInSight = false;
-    }
+    }    
 
     void OnDrawGizmos()
     {

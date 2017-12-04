@@ -128,8 +128,10 @@
     <Compile Include="Assets\Scripts\Cosas.cs" />
     <Compile Include="Assets\Scripts\Enemies.cs" />
     <Compile Include="Assets\Scripts\FloorMovement.cs" />
+    <Compile Include="Assets\Scripts\Flota.cs" />
     <Compile Include="Assets\Scripts\Keys.cs" />
     <Compile Include="Assets\Scripts\Layers.cs" />
+    <Compile Include="Assets\Scripts\ThingsThatFAll.cs" />
     <Compile Include="Assets\Scripts\hero.cs" />
     <Compile Include="Assets\Scripts\puf.cs" />
   </ItemGroup>
