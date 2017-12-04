@@ -18,9 +18,12 @@ public class Flota : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(0, Time.deltaTime * degreesPerSecond, 0), Space.World);
-        tempPos = posOffset;
-        tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frecuency) * amplitude;
-        transform.position = tempPos;
+        if (QueLoOtroFlote.flota)
+        {
+            transform.Rotate(new Vector3(0, Time.deltaTime * degreesPerSecond, 0), Space.World);
+            tempPos = posOffset;
+            tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frecuency) * amplitude;
+            transform.position = tempPos;
+        }
     }
 }
